@@ -1,16 +1,17 @@
 public class Main
 {
 	public static void main(String[] args) {
-	    int a=29,b,sum=0,re;re=a;
-	   while(re>0)
+	    int a=29,b,sum=0,r;
+		r=a;
+	   while(r>0)
 	   {
-	     b=re%10;
+	     b=r%10;
 	      sum+=Math.pow(b,3);
-	      re =re/10;
+	      r =r/10;
 
 	   
 	   }
-	   if(sum==re)
+	   if(sum==r)
 	   {
 	       System.out.println(a+"is a armstrong number");
 	   }
